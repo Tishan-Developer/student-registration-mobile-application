@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/purple"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advance SQLite Database Application"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/et_st_reg_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Registration No"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birthday"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Insert Data"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:text="update data"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Delete Data"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="View Data"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
